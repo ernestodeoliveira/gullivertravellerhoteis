@@ -15,7 +15,7 @@ const encuentrame = () => {
         // https://www.mapquestapi.com/staticmap/v5/map?key=KEY&locations=LOCATION&size=WIDTH,HEIGHT
         const mapa = new Image();
         //mapa.src = `https://www.mapquestapi.com/staticmap/v5/map?key=umf0OymiBaMtJ3giTZBcOha7x4IAmVpH&locations=${latitude},${longitude}&size=400,300`;
-        mapa.src = `https://www.mapquestapi.com/staticmap/v5/map?key=umf0OymiBaMtJ3giTZBcOha7x4IAmVpH&start=${latitude},${longitude}&end=${divMapa.title}&routeArc=true&size=700,400`;
+        mapa.src = `https://www.mapquestapi.com/staticmap/v5/map?key=umf0OymiBaMtJ3giTZBcOha7x4IAmVpH&start=${latitude},${longitude}&end=${divMapa.title}&size=700,400`;
         divMapa.appendChild(mapa);
     };
 
